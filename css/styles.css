@@ -1,3 +1,59 @@
-.my-conteiner {
-  background: #fff;
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: #212121;
+  width: 1600px;
+}
+/* Heder block */
+.head-block {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.logo {
+  margin: 0 93px 0 215px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.element-logo {
+  color: #000;
+}
+.nav-head {
+  display: flex;
+  list-style-type: none;
+}
+.nav-element {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.list-nav-element {
+  padding-right: 50px;
+}
+.contact-head {
+  display: flex;
+  margin-left: 281px;
+  list-style-type: none;
+}
+.contact-element {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.list-contact-element {
+  padding-right: 50px;
+}
+a:hover,
+:focus {
+  color: #2196f3;
 }
