@@ -1,48 +1,65 @@
+:root {
+  --color-title: #212121;
+  --font-title: Raleway, sans-serif;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+button:hover,
+button:focus {
+  color: #2196f3;
+}
+
 body {
   font-family: Roboto, Raleway, sans-serif;
-  color: #212121;
+  color: #757575;
   width: 1600px;
 }
-/* Heder block */
-.head-block {
+/* Header box */
+.header {
   display: flex;
   align-items: center;
-  height: 80px;
 }
 .logo {
-  margin: 0 93px 0 215px;
+  margin: 24px 93px 25px 215px;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: var(--font-title);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.element-logo {
+.text-logo {
   color: #000;
 }
-.nav-head {
+.nav-list {
   display: flex;
   list-style-type: none;
 }
-.nav-element {
+.item-nav {
+  padding-right: 50px;
+}
+
+.text-link-nav {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-title);
 }
-.list-nav-element {
-  padding-right: 50px;
-}
-.contact-head {
+.list-contact-head {
   display: flex;
   margin-left: 281px;
   list-style-type: none;
 }
-.contact-element {
+.item-contact-head {
+  padding-right: 50px;
+}
+
+.text-contact-head {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -50,10 +67,35 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.list-contact-element {
-  padding-right: 50px;
+/* Hero box */
+.hero {
+  background-color: #2f303a;
+  padding: 200px 452px 0 452px;
+  margin-bottom: 94px;
+  text-align: center;
 }
-a:hover,
-:focus {
-  color: #2196f3;
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.hero-btn {
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin-bottom: 200px;
+  cursor: pointer;
 }
