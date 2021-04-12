@@ -79,6 +79,10 @@ body {
   padding-right: 50px;
 }
 
+.nav-list .text-link-nav.current {
+  color: var(--accent-color);
+}
+
 .text-link-nav,
 .text-contact-head {
   text-decoration: none;
@@ -87,10 +91,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-title);
-}
-
-.nav-list .text-link-nav.current {
-  color: var(--accent-color);
 }
 
 .list-contact-head {
